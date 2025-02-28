@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>QR Code Genrator</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="icon"
-      href="https://img.icons8.com/?size=100&id=783&format=png&color=000000"
-    />
-  </head>
 
-  <body>
-    <div class="container">
-      <p>Enter Your Text or URL</p>
-      <input type="text" placeholder="Text or URL" id="qrText" />
-      <div id="imgBox">
-        <img src="" id="qrImage" />
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR Code Genrator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://img.icons8.com/?size=100&id=783&format=png&color=000000">
+</head>
 
-      <button onclick="generateQR()">Generate OR Code</button>
+<body>
+  <div class="container">
+    <p>Enter Your Text or URL</p>
+    <input type="text" placeholder="Text or URL" id="qrText" />
+    <div id="imgBox">
+      <img src="" id="qrImage" />
     </div>
-    <script src="index.js"></script>
-  </body>
-  
+
+    <button onclick="generateQR()">Generate OR Code</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
